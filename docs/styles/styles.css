@@ -63,12 +63,11 @@
     background-position: 50% 25%;
     height: 200px;
     border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+    border-top-right-radius: 16px; 
   }
 
   .end-banner {
     margin-top: 2px;
-
     background-color: transparent;
     background-image: url('imgs/bg1.jpg');
     background-repeat: no-repeat;
@@ -81,7 +80,6 @@
     cursor: pointer;
   }
   
-
   .profile-text {
     color:#ffffff;
     padding: 10px;
