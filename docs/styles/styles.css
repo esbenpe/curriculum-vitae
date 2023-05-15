@@ -69,7 +69,7 @@
   
   .profile-banner {
     background-color: #002633;
-    background-image: url('bg1.jpg');
+    background-image: url('imgs/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 25%;
@@ -82,7 +82,7 @@
     margin-top: 2px;
 
     background-color: transparent;
-    background-image: url('bg1.jpg');
+    background-image: url('imgs/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 77.5%;
@@ -118,7 +118,7 @@
     border-radius: 50%;
     border: 5px solid #fff;
     background-color: #fff;
-    background-image: url('1636559196062.jpg');
+    background-image: url('imgs/1636559196062.jpg');
     background-size: cover;
     background-position: center;
   }
