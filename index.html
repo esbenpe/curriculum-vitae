@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Esben Christian Pedersen</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function toggleSection() {
+        var section = document.getElementById("sections");
+        var jobdescr = document.getElementById("jobdescription");
+        if (section.classList.contains("slideup")) {
+            section.className = "slidedown";
+            jobdescr.className = "slidedown";
+        } else {
+            section.className = "slideup";
+            jobdescr.className = "slideup";
+        }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-banner" onclick="toggleSection()">
+        <!-- Profile Banner Content -->
+        <div class="profile-text">
+            <h1>Esben Christian Pedersen</h1>
+        </div>
+      </div>
+      <div class="profile-picture">
+        <!-- Profile Picture Content -->
+      </div>
+      <div id="jobdescription" class="slideup">
+        <div class="profile-text-description">
+            <h3>Data Scientist & Machine Learning Engineer</h3>
+        </div>
+      </div>
+    </header>
+    <div class="slideup" id="sections">
+        <div class="vertical-tabs">
+            <div class="vertical-contact-skills">
+                <section id="contact">
+                    <h2>Contact Information</h2>
+                    <ul class="contact-list">
+                    <li><strong>Email:</strong> esben.pedersen@stud.hs-hannover.de</li>
+                    <li><strong>Phone:</strong> +49 151 27058305</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/esben-christian-pedersen-0b38a220a">linkedin.com/in/esben-christian-pedersen-0b38a220a</a></li>
+                    </ul>
+                </section>
+                <section id="programming-languages">
+                    <h2>Programming and Web</h2>
+                    <ul class="language-list">
+                        <li>
+                            Python <span class="skill-level">(Advanced)</span>
+                        </li>
+                        <li>
+                            JavaScript <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            HTML <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            CSS <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            C++ <span class="skill-level">(Beginner)</span>
+                        </li>
+                        <li>
+                            Java <span class="skill-level">(Beginner)</span>
+                        </li>
+                        <li>
+                            SQL <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            NoSQL <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            React <span class="skill-level">(Beginner)</span>
+                        </li>
+                        <li>
+                            TypeScript <span class="skill-level">(Beginner)</span>
+                        </li>
+                    </ul>
+                    <h2>Other Skills</h2>
+                    <ul class="language-list">
+                        <li>
+                            MS Office <span class="skill-level">(Advanced)</span>
+                        </li>
+                        <li>
+                            UI/UX <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            AI & ML <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            Data Mining <span class="skill-level">(Advanced)</span>
+                        </li>
+                        <li>
+                            Text Mining <span class="skill-level">(Advanced)</span>
+                        </li>
+                        <li>
+                            Web Scraping <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            Linked Data <span class="skill-level">(Intermediate)</span>
+                        </li>
+                        <li>
+                            Project Management <span class="skill-level">(Intermediate)</span>
+                        </li>                 
+                    </ul>
+                    <h2>Languages</h2>
+                    <ul class="language-list">
+                        <li>
+                            Deutsch <span class="skill-level">(Native)</span>
+                        </li>
+                        <li>
+                            English <span class="skill-level">(Advanced)</span>
+                        </li>
+                        <li>
+                            Dansk <span class="skill-level">(Beginner)</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="vertical-information">        
+                <section id="education">
+                    <h2>Education</h2>
+                    <ul class="timeline">
+                    <li data-date="Sept. 2003 &#8212; July 2010">
+                        <div class="timeline-content">
+                            <h3>Fachhochschulreife</h3>
+                            <p>Neue Oberschule</p>
+                        </div>
+                    </li>
+                    <li data-date="Sept. 2012 &#8212; June 2015">
+                        <div class="timeline-content">
+                        <h3>Ausbildung zum Werkzeugmechaniker</h3>
+                        <p>Volkswagen AG in Braunschweig</p>
+                        <p>Abgeschlossen mit 1.0, IHK Auszeichnung und ausgezeichnet als einer der 40 besten Auszubildenden im VW Konzern weltweit</p>
+                        </div>
+                    </li>
+                    <li data-date="Sept. 2015 &#8212; Jan. 2019">
+                        <div class="timeline-content">
+                        <h3>Bachelor of Engineering: Fahrzeugtechnik</h3>
+                        <p>Ostfalia Hochschule für angewandte Wissenschaften in Wolfsburg</p>
+                        <p><strong>Schwerpunkt:</strong> Kunststofftechnik</p>
+                        <p>als Stipendiat der Volkswagen AG</p>
+                        </div>
+                    </li>
+                    <li data-date="March 2019 &#8212; Aug. 2019">
+                        <div class="timeline-content">
+                            <h3>Bachelor of Arts: Wirtschaftsinformatik</h3>
+                            <p>Ostfalia Hochschule für angewandte Wissenschaften in Wolfenbüttel</p>
+                            <p>Semester zur Orientierung</p>
+                        </div>
+                    </li>
+                    <li data-date="Sept. 2019 &#8212; vsl. July 2023">
+                        <div class="timeline-content">
+                            <h3>Bachelor of Arts: Informationsmanagement</h3>
+                            <p>Hochschule Hannover</p>
+                            <p><strong>Schwerpunkt:</strong> Datenwissenschaften, KI & Webinformation Management</p>
+                        </div>
+                    </li>
+                    </ul>
+                </section>
+            
+                <section id="experience">
+                    <h2>Experience</h2>
+                    <ul class="timeline">
+                    <li data-date="Mar. 2022 &#8212; Present">
+                        <div class="timeline-content">
+                        <h3>Werkstudent</h3>
+                        <p>Siemens Mobility Braunschweig</p>
+                        <p><strong>Data Science und ML Engineering im Bereich Research and Development</strong></p>
+                        <p>Projektarbeit an einem Software-Testsystem, Dekodieren und Analysieren von Testlaufdaten dezentraler Software, Machbarkeitsfestellung für Ähnlichkeit von Telegrammen in Testlaufdaten, ML Model zur Anomalieerkennung in dezentraler Software</p>
+                        </div>
+                    </li>
+                    <li data-date="May 2019 &#8212; Feb. 2022">
+                        <div class="timeline-content">
+                        <h3>Werkstudent</h3>
+                        <p>Siemens Mobility Braunschweig</p>
+                        <p><strong>Softwaretest und Integration</strong></p>
+                        <p>Automatisierung von Buildprozessen, Umstrukturierung des Buildprozess auf CMake, GUI entwickeln zur Steuerung von Soft- und Hardware-Objekten in der Testanlage, Webapplikation entwickeln zum Scannen und Verarbeiten von Lieferscheinen mit Datenbankanbindung, Aufsetzen einer SQL-Datenbank mit automatisierter Einspeisung von Testlaufdaten, Automatisierung zum Erstellen von Konfigurationsdateien für Hardwareobjekte, Datenanalyse von Testlaufdaten samt visueller Aufarbeitung, Netzwerkstresstests in simulierten Netzwerken mit angeschlossener Hardware</p>
+                        </div>
+                    </li>
+                    <li data-date="June 2015 &#8212; Aug. 2015">
+                        <div class="timeline-content">
+                            <h3>Anlagenführer im 3-Schichtbetrieb</h3>
+                            <p>Volkswagen AG Braunschweig Presswerk</p>
+                        </div>
+                    </li>
+                    <li data-date="Aug. 2011 &#8212; July 2012">
+                        <div class="timeline-content">
+                            <h3>Praktikum Vollzeit</h3>
+                            <p>Volkswagen AG Braunschweig</p>
+                            <p><strong>Inhalte:</strong> Instandhaltung von Anlagen, Aufbau von Neuanlagen, Rückbau von Altanlagen, 3D-Planung digitale Fabrik, Aufbau neuer Spritzgießmaschinenbereiche in 3D-Modellen, Vermessung der Fertigungsbereiche und Aktualisierung der Altbestände in 3D, Unterstützung beim Aufbau von Fertigungsbereichen mittels 3D-Darstellung von Hallenbereichen und Maschinen</p>
+                        </div>
+                    </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="end-banner" onclick="toggleSection()">
+            <!-- Footer section -->
+    </div>
+  </div>
+</body>
+</html>
